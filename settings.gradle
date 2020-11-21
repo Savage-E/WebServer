@@ -1,0 +1,4 @@
+rootProject.name = 'WebServer'
+include 'core'
+include 'core'
+

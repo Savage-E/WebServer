@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+</head>
+<body>
+    <h1>Help</h1>
+    <p>if you want to see all goods, click <a  href="http://127.0.0.1:3466/allProducts">http://127.0.0.1:3466/allProducts</a> </p>
+    <p>if you want to add new goods(only for manager), click <a href="http://127.0.0.1:3466/addProduct"> http://127.0.0.1:3466/addProduct</a> </p>
+    <p>if you want visit main page, click <a href="http://127.0.0.1:3466/">http://127.0.0.1:3466/</a> </p>
+
+</body>
+</html>

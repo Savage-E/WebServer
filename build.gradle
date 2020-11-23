@@ -19,5 +19,6 @@ allprojects {
         compile group: 'com.intellij', name: 'annotations', version: '12.0'
         compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.33.v20201020'
         compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.33.v20201020'
+        compile group: 'org.eclipse.jetty', name: 'jetty-servlets', version: '9.4.33.v20201020'
     }
 }

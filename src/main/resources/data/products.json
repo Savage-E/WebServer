@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Sheaker",
+    "manufacturer": "Nike",
+    "amount": 200
+  },
+  {
+    "name": "Glove",
+    "manufacturer": "Adidas",
+    "amount": 200
+  },
+  {
+    "name": "Scarf",
+    "manufacturer": "Hilfiger",
+    "amount": 200
+  },
+  {
+    "name": "T-shirt",
+    "manufacturer": "Puma",
+    "amount": 200
+  }
+]

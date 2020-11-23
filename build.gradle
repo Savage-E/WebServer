@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id'application'
 }
 
 group 'ru.mail'
@@ -21,4 +22,11 @@ allprojects {
         compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.33.v20201020'
         compile group: 'org.eclipse.jetty', name: 'jetty-servlets', version: '9.4.33.v20201020'
     }
+}
+ext{
+    javaMainClass = 'ru.mail.server.WebApp'
+
+}
+application{
+    mainClassName = javaMainClass
 }

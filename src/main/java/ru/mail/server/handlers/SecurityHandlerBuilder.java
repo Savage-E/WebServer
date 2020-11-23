@@ -16,7 +16,7 @@ import static java.util.Arrays.asList;
 @SuppressWarnings("NotNullNullableValidation")
 public final class SecurityHandlerBuilder {
     private static final String ROLE_ADMIN = "admin";
-    private static final String ROLE_USER = "guest";
+    private static final String ROLE_GUEST = "guest";
 
     private final ConstraintSecurityHandler security = new ConstraintSecurityHandler();
 
@@ -62,7 +62,7 @@ public final class SecurityHandlerBuilder {
         ));
 
         constraintMappings.addAll(constraintGetMapping(
-                buildConstraint(ROLE_USER, ROLE_ADMIN),
+                buildConstraint(ROLE_GUEST, ROLE_ADMIN),
                 asList("/Help", "/", "/index", "/allProducts")
         ));
 

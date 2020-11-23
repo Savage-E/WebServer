@@ -1,2 +1,2 @@
-guest: read-only, guest
+guest: ,guest
 manager: MD5:1C1D5315404C08F542D1ABF135B40507, admin

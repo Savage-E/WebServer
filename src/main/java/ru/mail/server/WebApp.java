@@ -61,8 +61,6 @@ public final class WebApp {
         final ConstraintSecurityHandler securityHandler = new SecurityHandlerBuilder().build(hashLoginService);
         server.addBean(hashLoginService);
         securityHandler.setHandler(context);
-        server.setHandler(securityHandler);
-
 
         HandlerCollection collection = new HandlerCollection();
         collection.setHandlers(new Handler[]{securityHandler, context});
